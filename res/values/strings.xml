@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Points Calculator</string>
+    <string name="glucides">Glucides</string>
+    <string name="proteins">Proteins</string>
+    <string name="lipides">Lipides</string>
+    <string name="fibres">Fibres</string>
+    <string name="poids">Poids</string>
+</resources>

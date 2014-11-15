@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+    <TableRow android:weightSum="2" android:layout_width="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/proteins"
+                android:id="@+id/proteinsText" android:layout_gravity="left|center_vertical"
+                android:paddingRight="5dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/proteins" android:text="0"
+                android:selectAllOnFocus="true"
+                android:numeric="integer"/>
+
+    </TableRow>
+    <TableRow android:weightSum="2">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="@string/glucides"
+                  android:id="@+id/glucidesText" android:layout_gravity="left|center_vertical"
+                  android:paddingRight="5dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/glucides"
+                android:text="0"
+                android:selectAllOnFocus="true"
+                android:numeric="integer"/>
+
+    </TableRow>
+    <TableRow android:weightSum="2">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="@string/lipides"
+                  android:id="@+id/lipidesText" android:layout_gravity="left|center_vertical"
+                  android:paddingRight="5dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/lipides" android:text="0" android:selectAllOnFocus="true" android:numeric="integer"/>
+    </TableRow>
+    <TableRow android:weightSum="2">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="@string/fibres"
+                  android:id="@+id/fibresText" android:layout_gravity="left|center_vertical"
+                  android:paddingRight="5dp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_gravity="center_horizontal" android:id="@+id/fibres" android:text="0"
+                android:selectAllOnFocus="true" android:numeric="integer"/>
+    </TableRow>
+    <TableRow android:weightSum="2">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall" android:text="@string/poids"
+                  android:id="@+id/poidTexte" android:layout_gravity="left|center_vertical" android:paddingRight="5dp"/>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"
+                  android:ems="10" android:layout_gravity="center_horizontal" android:id="@+id/poid" android:text="100"
+                  android:selectAllOnFocus="true" android:numeric="integer"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Points : 0"
+                android:id="@+id/pointsText" android:layout_span="2"/>
+    </TableRow>
+</TableLayout>
+
+
+
