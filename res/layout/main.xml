@@ -13,11 +13,11 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/proteins" android:text="0"
                 android:selectAllOnFocus="true"
-                android:numeric="integer"/>
+                android:numeric="decimal"/>
 
     </TableRow>
     <TableRow android:weightSum="2">
@@ -30,12 +30,12 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:ems="10"
                 android:id="@+id/glucides"
                 android:text="0"
                 android:selectAllOnFocus="true"
-                android:numeric="integer"/>
+                android:numeric="decimal"/>
 
     </TableRow>
     <TableRow android:weightSum="2">
@@ -48,9 +48,9 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:ems="10"
-                android:id="@+id/lipides" android:text="0" android:selectAllOnFocus="true" android:numeric="integer"/>
+                android:id="@+id/lipides" android:text="0" android:selectAllOnFocus="true" android:numeric="decimal"/>
     </TableRow>
     <TableRow android:weightSum="2">
         <TextView android:layout_width="wrap_content"
@@ -62,18 +62,18 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:ems="10"
                 android:layout_gravity="center_horizontal" android:id="@+id/fibres" android:text="0"
-                android:selectAllOnFocus="true" android:numeric="integer"/>
+                android:selectAllOnFocus="true" android:numeric="decimal"/>
     </TableRow>
     <TableRow android:weightSum="2">
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:textAppearance="?android:attr/textAppearanceSmall" android:text="@string/poids"
                   android:id="@+id/poidTexte" android:layout_gravity="left|center_vertical" android:paddingRight="5dp"/>
-        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal"
                   android:ems="10" android:layout_gravity="center_horizontal" android:id="@+id/poid" android:text="100"
-                  android:selectAllOnFocus="true" android:numeric="integer"/>
+                  android:selectAllOnFocus="true" android:numeric="decimal"/>
 
     </TableRow>
     <TableRow>
